@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: "Mona Sans", sans-serif;
+            font-optical-sizing: auto;
+            margin: 0;
+        }
+        nav{
+            display: flex;
+            justify-content:center;
+            /* background: #c1c1c1; */
+            border-bottom: 1px solid #c1c1c1;
+        }
+        .content{
+            /* background: #edf064; */
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img{
+            width: 50px;
+            height: 50px;
+        }
+        .content ul{
+            display: flex;
+            /* Remove the bullets */
+            list-style-type:none;
+        }
+        .content ul li{
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+        .content ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 12px 16px;
+            text-transform: uppercase;
+        }
+        .content a:hover{
+            color: #dbd7d7;
+            border-bottom: 2px solid black;
+        }
+        /* git add . */
+        /* git commit -m "Update navigation bar" */
+        /* git push */
+
+        /* SSH key setup for Github on Windows */
+        /* ssh-keygen -t rsa -b 4096 -C "your_email@example.com" */
+        /* eval "$(ssh-agent -s)" */
+        /* ssh-add ~/.ssh/id_rsa" */
+
+    </style>
+</head>
+
+<body>
+       <nav><div class="content">
+        <div class="logo">
+            <img src="images/delivery-truck.png" alt="Logo">
+        </div>
+        <ul >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="list.html">List</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="divs.html">Divs</a></li>   
+        </ul>
+    </div>
+    </nav>
+</body>
+</html>
