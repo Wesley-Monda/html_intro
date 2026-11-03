@@ -20,4 +20,12 @@ p{
         color: #df1515;
         font-size: 1.2rem;
     }
+    .col {
+        width: 49%;
+        margin-bottom: 12px;
+    }
 }
+/* .sm.md.lg.xl.xxl. */
+/* CSS frameworks --Bootstrap 5 -- Tailwind --Bulma --Chakra --- code that is already done with 95% */
+/* Python -- Django */
+/* JS -- React, Vue, Angular */
