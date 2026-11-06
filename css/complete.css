@@ -1,0 +1,18 @@
+.card-img-top {
+    height: 200px;         /* Fixed height for all product images */
+    width: 100%;           /* Fills card width */
+    object-fit: cover;     /* Crops image nicely without stretching/distortion */
+    object-position: center; /* Centers image content inside crop area */
+}
+/* Ensure hero section stays padded and properly aligned */
+.hero {
+    padding: 3rem 0;
+}
+
+/* Restrict hero image height so it stays balanced with text */
+.hero img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* Optional: adds smooth rounded corners */
+}
